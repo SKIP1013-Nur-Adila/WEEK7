@@ -1,0 +1,163 @@
+package wEEK7_SelfProgramming_naddyel;
+
+import java.util.Scanner;
+
+//switch example
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input=new Scanner(System.in);
+		
+		
+		System.out.print("Please enter your size number: ");
+		int numberr=input.nextInt();
+		String size;
+		
+		
+
+	    // switch statement to check size
+	    switch (numberr) {
+
+	      case 29:
+	        size = "Small";
+	        break;
+
+	      case 42:
+	        size = "Medium";
+	        break;
+
+	      // match the value of week
+	      case 44:
+	        size = "Large";
+	        break;
+
+	      case 48:
+	        size = "Extra Large";
+	        break;
+	      
+	      default:
+	        size = "Unknown";
+	        break;
+
+	    }
+	    System.out.println("Size: " + size);
+	    
+	    System.out.println("Enter expression number ");
+	    int expression =input.nextInt();;
+
+	    // switch statement to check size
+	    switch (expression) {
+	      case 1:
+	        System.out.println("Case 1");
+
+	        // matching case
+	      case 2:
+	        System.out.println("Case 2");
+
+	      case 3:
+	        System.out.println("Case 3");
+
+	      default:
+	        System.out.println("Default case");
+	    }
+	    
+	    
+	  //Declaring a variable for switch expression  
+	    int number; 
+	    System.out.println("Enter number");
+	    number=input.nextInt();
+	    //Switch expression  
+	    switch(number){  
+	    //Case statements  
+	    case 10: System.out.println("10");  
+	    break;  
+	    case 20: System.out.println("20");  
+	    break;  
+	    case 30: System.out.println("30");  
+	    break;  
+	    //Default case statement  
+	    default:System.out.println("Not in 10, 20 or 30");  
+	    }  
+
+	    
+	    System.out.println("Enter month");
+	    int month =input.nextInt();  
+	    
+	    String monthString="";  
+	    //Switch statement  
+	    switch(month){    
+	    //case statements within the switch block  
+	    case 1: monthString="1 - January";  
+	    break;    
+	    case 2: monthString="2 - February";  
+	    break;    
+	    case 3: monthString="3 - March";  
+	    break;    
+	    case 4: monthString="4 - April";  
+	    break;    
+	    case 5: monthString="5 - May";  
+	    break;    
+	    case 6: monthString="6 - June";  
+	    break;    
+	    case 7: monthString="7 - July";  
+	    break;    
+	    case 8: monthString="8 - August";  
+	    break;    
+	    case 9: monthString="9 - September";  
+	    break;    
+	    case 10: monthString="10 - October";  
+	    break;    
+	    case 11: monthString="11 - November";  
+	    break;    
+	    case 12: monthString="12 - December";  
+	    break;    
+	    default:System.out.println("Invalid Month!");    
+	    }    
+	    //Printing month of the given number  
+	    System.out.println("Your month is "+monthString);  
+	    
+	    
+	    
+	    System.out.println("Enter Vowel");
+	    String ali;
+	    char C =input.next().charAt(0);
+	      
+	    switch(C)  
+	    {  
+	        case 'a':   
+	            System.out.println("Vowel");  
+	            break;  
+	        case 'e':   
+	            System.out.println("Vowel");  
+	            break;  
+	        case 'i':   
+	            System.out.println("Vowel");  
+	            break;  
+	        case 'o':   
+	            System.out.println("Vowel");  
+	            break;  
+	        case 'u':   
+	            System.out.println("Vowel");  
+	            break;  
+	        case 'A':   
+	            System.out.println("Vowel");  
+	            break;  
+	        case 'E':   
+	            System.out.println("Vowel");  
+	            break;  
+	        case 'I':   
+	            System.out.println("Vowel");  
+	            break;  
+	        case 'O':   
+	            System.out.println("Vowel");  
+	            break;  
+	        case 'U':   
+	            System.out.println("Vowel");  
+	            break;  
+	        default:   
+	            System.out.println("Consonant");  
+	    }  
+	}
+
+}
